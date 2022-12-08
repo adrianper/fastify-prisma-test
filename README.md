@@ -4,8 +4,8 @@
 MaGiEi back-end API application
 
 ## INSTALATION
-- Install NodeJS from [nodejs download](https://nodejs.org/en/download/).
-- Download HeidiSQL from [heidisql download](https://www.heidisql.com/download.php).
+- Install NodeJS from [NodeJS download](https://nodejs.org/en/download/).
+- Download HeidiSQL from [HeidiSQL download](https://www.heidisql.com/download.php).
 - Open project in vscode.
 - Run the following command `npm install`, it could take some minutes.
 - Create .env file in the root of the project and write the following code
