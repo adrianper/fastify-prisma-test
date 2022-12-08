@@ -17,3 +17,4 @@ MaGiEi back-end API application
 
 ## PREVIEW
 - To see the app open in your browser http://localhost:3000
+- Visit http://localhost:3000/docs to see API Documentation
