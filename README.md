@@ -18,3 +18,6 @@ MaGiEi back-end API application
 ## PREVIEW
 - To see the app open in your browser http://localhost:3000
 - Visit http://localhost:3000/docs to see API Documentation
+
+# PRISMA
+- Use `prisma migrate dev --name migration_name` after modify schema to make changes in database.
