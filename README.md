@@ -1,7 +1,7 @@
 # README
 
-# magiei-api-v1
-MaGiEi back-end API application
+# Fastify-Prisma App Test
+Fastify-Prisma back-end API application
 
 ## INSTALATION
 - Install NodeJS from [NodeJS download](https://nodejs.org/en/download/).
