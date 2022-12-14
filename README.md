@@ -1,7 +1,7 @@
 # README
 
 # Fastify-Prisma App Test
-Fastify-Prisma back-end API application
+Fastify-Prisma back-end API application test
 
 ## INSTALATION
 - Install NodeJS from [NodeJS download](https://nodejs.org/en/download/).
