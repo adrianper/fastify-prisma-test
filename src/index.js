@@ -1,6 +1,6 @@
 // CommonJs
 const fastify = require('fastify')({
-    logger: true
+  logger: true
 })
 const userRoutes = require('./routes/users/users.routes')
 const fastifySwagger = require('@fastify/swagger')
@@ -12,23 +12,27 @@ fastify.register(fastifySwagger, swaggerOptions.swaggerOptions)
 
 fastify.register(fastifySwaggerUi, swaggerOptions.swaggerUIOptions)
 
-fastify.get("/", async (request, reply) => {
-    return { hello: 'Hola Mundo' }
+fastify.get('/', async (request, reply) => {
+  return { hello: 'Hola Mundo' }
 })
 
-/**Create routes */
-userRoutes.forEach(route => { fastify.route(route) })
+/** Create routes */
+userRoutes.forEach(route => {
+  fastify.route(route)
+})
 
 /** Start the server! */
 const start = async () => {
-    try {
-        await fastify.listen({ port: 3000 })
+  try {
+    await fastify.listen({ port: 3000 })
 
-        fastify.log.info(`Server is running on port ${fastify.server.address().port}`)
-    } catch (err) {
-        fastify.log.error(err)
-        process.exit(1)
-    }
+    fastify.log.info(
+      `Server is running on port ${fastify.server.address().port}`
+    )
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
 }
 
 start()
