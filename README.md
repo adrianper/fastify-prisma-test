@@ -23,3 +23,5 @@ Fastify-Prisma back-end API application test
 
 ## PRISMA
 - Use `prisma migrate dev --name migration_name` after modify schema to make changes in database.
+
+## TEST
