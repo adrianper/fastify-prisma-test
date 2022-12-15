@@ -12,6 +12,6 @@
     },
     "rules": {
         "spaced-comment": "warn",
-        "no-unused-vars": "off"
+        "no-unused-vars": "error"
     }
 }
