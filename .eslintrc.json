@@ -11,6 +11,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "spaced-comment": "warn"
+        "spaced-comment": "warn",
+        "no-unused-vars": "off"
     }
 }
