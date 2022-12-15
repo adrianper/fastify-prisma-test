@@ -12,7 +12,7 @@ fastify.register(fastifySwagger, swaggerOptions.swaggerOptions)
 
 fastify.register(fastifySwaggerUi, swaggerOptions.swaggerUIOptions)
 
-fastify.get('/', async (request, reply) => {
+fastify.get("/", async (request, reply) => {
     return { hello: 'Hola Mundo' }
 })
 
