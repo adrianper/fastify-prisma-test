@@ -2,10 +2,10 @@
 const fastify = require('fastify')({
   logger: true
 })
-    const userRoutes = require('./routes/users/users.routes')
-    const fastifySwagger = require('@fastify/swagger')
-    const fastifySwaggerUi = require('@fastify/swagger-ui')
-
+const userRoutes = require('./routes/users/users.routes')
+const fastifySwagger = require('@fastify/swagger')
+const fastifySwaggerUi = require('@fastify/swagger-ui')
+const a = [1, 2, 3, 4]
 const swaggerOptions = require('./utils/swagger')
 
 fastify.register(fastifySwagger, swaggerOptions.swaggerOptions)
