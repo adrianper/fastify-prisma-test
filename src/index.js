@@ -13,7 +13,7 @@ fastify.register(fastifySwagger, swaggerOptions.swaggerOptions)
 fastify.register(fastifySwaggerUi, swaggerOptions.swaggerUIOptions)
 
 fastify.get('/', async (request, reply) => {
-    return { hello: 'world' }
+    return { hello: 'Esta es una prueba de fastify' }
 })
 
 /**Create routes */
